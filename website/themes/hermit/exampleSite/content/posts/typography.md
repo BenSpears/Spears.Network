@@ -20,29 +20,6 @@ Inline styles：
 
 ![img](https://picsum.photos/600/400/?random)
 
-
-imbed instagram    {{< instagram BWNjjyYFxVx >}}
-_ you only need the ID of the post
-
-
-
-https://twitter.com/spf13/status/877500564405444608
-
-{{< tweet 877500564405444608 >}}
-
-
-
-https://youtu.be/WPGMqaM7sA0
-
-
-{{< youtube WPGMqaM7sA0 >}}
-
-
-
-
-
-
-
 ---
 
 Headings:
