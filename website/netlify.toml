@@ -6,11 +6,14 @@
 
 [context.production.environment]
   HUGO_VERSION = "0.74.1"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
 [build.environment]
   HUGO_THEME = "repo"
 
 [context.deploy-preview]
+  HUGO_VERSION = "0.74.1"
   command = "hugo --gc --themesDir ../.. -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
