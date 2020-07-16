@@ -1,7 +1,11 @@
 [build]
-  base = "exampleSite"
+  base = ""
+  publish = "public"
   command = "hugo --gc --themesDir ../.. -b $URL"
   publish = "exampleSite/public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.74.1"
 
 [build.environment]
   HUGO_THEME = "repo"
