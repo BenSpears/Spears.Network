@@ -84,6 +84,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     weight = 10
 
   [[menu.main]]
+    name = "Remote Support"
+    url = "https://download.teamviewer.com/download/TeamViewerQS.exe"
+    weight = 20
+  
+  [[menu.main]]
     name = "About"
     url = "https://spears.network/about/"
     weight = 20
