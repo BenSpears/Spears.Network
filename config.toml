@@ -81,13 +81,18 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "Posts"
     url = "https://spears.network/posts/"
     weight = 10
+ 
+  [[menu.main]]
+    name = "About"
+    url = "https://spears.network/about/"
+    weight = 20
 
   [[menu.main]]
     name = "Support"
     url = "https://download.teamviewer.com/download/TeamViewerQS.exe"
     weight = 20
-  
+
   [[menu.main]]
-    name = "About"
-    url = "https://spears.network/about/"
+    name = "Services"
+    url = "https://spears.network/services/"
     weight = 20
